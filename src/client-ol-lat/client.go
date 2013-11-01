@@ -2,17 +2,17 @@ package main
 
 import (
 	"bufio"
-	"dlog"
 	"flag"
 	"fmt"
-	"genericsmrproto"
+	"github.com/tav/epaxos/dlog"
+	"github.com/tav/epaxos/genericsmrproto"
+	"github.com/tav/epaxos/masterproto"
+	"github.com/tav/epaxos/state"
 	"log"
-	"masterproto"
 	"math/rand"
 	"net"
 	"net/rpc"
 	"runtime"
-	"state"
 	"time"
 )
 
